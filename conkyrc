@@ -52,7 +52,7 @@ conky.config = {
     
     -- Placement
 
-    	alignment = 'middle_left',
+    	alignment = 'middle_right',
     	gap_x = 0, -- -1906
     	gap_y = 0,
 		minimum_width = 280,

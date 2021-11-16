@@ -30,6 +30,8 @@ conky.config = {
 	--Various settings
 
 		background = true,
+		use_xft = true,
+		xftalpha = 0.1,
 		cpu_avg_samples = 2,
 		diskio_avg_samples = 10,
 		double_buffer = true,
@@ -52,11 +54,11 @@ conky.config = {
     
     -- Placement
 
-    	alignment = 'middle_right',
-    	gap_x = 0, -- -1906
-    	gap_y = 0,
-		minimum_width = 280,
-		maximum_width = 280,
+    	alignment = 'top_right',
+    	gap_x = 10, -- -1906
+    	gap_y = 10,
+		minimum_width = 250,
+		maximum_width = 400,
 		
 	--Graphical
 
@@ -71,7 +73,7 @@ conky.config = {
     	own_window_argb_visual = true,
     	own_window_transparent = true,
     	-- own_window_argb_value = 191,
-    	own_window_type = 'panel', -- options are: normal/override/dock/desktop/panel
+    	own_window_type = 'normal', -- options are: normal/override/dock/desktop/panel
 	
 	-- Text
 

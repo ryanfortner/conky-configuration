@@ -70,10 +70,10 @@ conky.config = {
 		draw_outline = false,
 		show_graph_scale = false,
     	show_graph_range = false,
-    	own_window_argb_visual = true,
     	own_window_transparent = true,
     	-- own_window_argb_value = 191,
     	own_window_type = 'normal', -- options are: normal/override/dock/desktop/panel
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
 	
 	-- Text
 
